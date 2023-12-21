@@ -19,8 +19,10 @@ Traditional methods for obtaining cellular responses after perturbation are usua
     git clone https://github.com/tongtongtot/scperb.git
     ```
 
-    scPerb is built based on PyTorch, tested in Ubuntu 18.04, CUDA environment(cuda 11.2) the requirement packages include:
+    scPerb is built based on PyTorch, tested in Ubuntu 18.04, CUDA environment (cuda 11.6).        
 
+    The requirement packages include:
+    
     ```
     anndata==0.10.3
     matplotlib==3.7.2
@@ -34,16 +36,15 @@ Traditional methods for obtaining cellular responses after perturbation are usua
     torchvision==0.16.0
     tqdm==4.65.0
     wget==3.2
-
     ```
-
+    
     or you can also use the following scripts:
-
+    
     ```
     pip install -r requirements.txt
     ```
-
-- **I want to try the toy demo, can I run scPerb in one command line?**
+    
+- **I want to try the PBMC demo, can I run scPerb in one command line?**    
     You can use the following commands:
 
     ```
@@ -52,11 +53,11 @@ Traditional methods for obtaining cellular responses after perturbation are usua
 
     or please refer to our training tutorial [here](https://github.com/tongtongtot/scperb-tutorial)
 
-- **Do I need a GPU for running scPerb?**
+- **Do I need a GPU for running scPerb?**   
     scPerb can run on a standard laptop without GPU. For computational efficiency, we recommend you use a GPU. scPerb could detect whether there is an available GPU or not, so do not worry about this.
 
-- **Can I generate my configuration file using the command line?**
-    You can change the default settings in the option.py, while the usage and description is written inside the document.
+- **Can I generate my configuration file using the command line? **  
+    You can change the default settings in the option.py, while the usage and description are written inside the document.
 
-- **Link?**
+- **Link?**   
     [pdf](http://yau-awards.com/uploads/file/20231031/20231031150434_30639.pdf)
