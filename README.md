@@ -52,10 +52,8 @@ Traditional methods for obtaining cellular responses after perturbation are usua
     python3 scperb.py
     ```
 
-    or please refer to our training tutorial [here](https://github.com/tongtongtot/scperb-tutorial)
-
 - **Do I need a GPU for running scPerb?**   
-    scPerb can run on a standard laptop without GPU. For computational efficiency, we recommend you use a GPU. scPerb could detect whether there is an available GPU or not, so do not worry about this.
+    scPerb can run on a standard computer without GPU. For computational efficiency, we recommend you use a GPU. scPerb could detect whether there is an available GPU or not, so do not worry about this.
 
 - **Can I generate my configuration file using the command line?**                 
     You can change the default settings in the option.py, while the usage and description are written inside the document.
