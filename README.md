@@ -2,7 +2,8 @@
 
 Traditional methods for obtaining cellular responses after perturbation are usually labor-intensive and costly, especially when working with rare cells or under severe experimental conditions. Therefore, accurate prediction of cellular responses to perturbations is of great importance in computational biology. To address this problem, some methodologies have been previously developed, including graph-based approaches, vector arithmetic, and neural networks. However, these methods either mix the perturbation-related variances with the cell-type-specific pat- terns or implicitly distinguish them within black-box models. In this work, we introduce a novel framework, scPerb, to explicitly extract the perturbation-related variances and transfer them from perturbed data to control data. scPerb adopts the style transfer strategy by incorporating a style encoder into the architecture of a variational autoencoder. Such style encoder accounts for the differences in the latent representations between control cells and perturbed cells, which allows scPerb to accurately predict the gene expression data of perturbed cells. Through the comparisons with existing methods, scPerb presents improved performance and higher accuracy in predicting cellular responses to perturbations. Specifically, scPerb not only outperforms other methods across multiple datasets, but also achieves superior R2 values of 0.98, 0.98, and 0.96 on three benchmarking datasets.
 
-![Fig1](https://github.com/tongtongtot/scPerb/assets/55981482/8b53093a-5dbb-477e-a1e3-afe91b12f5bd)
+![Fig1](https://github.com/tongtongtot/scPerb/assets/55981482/d9732c25-dc63-49c4-9c11-92ade53c3522)
+
 
 ## Highlights
 
